@@ -1,0 +1,9 @@
+F:\entw\DesignPattern #2 GUI\ModernGUI\DarkMode\bin\Debug\DarkMode.exe.config
+F:\entw\DesignPattern #2 GUI\ModernGUI\DarkMode\bin\Debug\DarkMode.exe
+F:\entw\DesignPattern #2 GUI\ModernGUI\DarkMode\bin\Debug\DarkMode.pdb
+F:\entw\DesignPattern #2 GUI\ModernGUI\DarkMode\obj\Debug\DarkMode.csprojAssemblyReference.cache
+F:\entw\DesignPattern #2 GUI\ModernGUI\DarkMode\obj\Debug\DarkMode.Properties.Resources.resources
+F:\entw\DesignPattern #2 GUI\ModernGUI\DarkMode\obj\Debug\DarkMode.csproj.GenerateResource.cache
+F:\entw\DesignPattern #2 GUI\ModernGUI\DarkMode\obj\Debug\DarkMode.exe
+F:\entw\DesignPattern #2 GUI\ModernGUI\DarkMode\obj\Debug\DarkMode.pdb
+F:\entw\DesignPattern #2 GUI\ModernGUI\DarkMode\obj\Debug\DarkMode.Main.resources

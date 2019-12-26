@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernGUI", "ModernGUI\ModernGUI.csproj", "{BBAF1E7F-5F75-47DC-898C-FBC2D3F91E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkMode", "DarkMode\DarkMode.csproj", "{E27B6AA2-B171-400D-8A92-FABE2080C4CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBAF1E7F-5F75-47DC-898C-FBC2D3F91E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAF1E7F-5F75-47DC-898C-FBC2D3F91E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAF1E7F-5F75-47DC-898C-FBC2D3F91E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAF1E7F-5F75-47DC-898C-FBC2D3F91E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27B6AA2-B171-400D-8A92-FABE2080C4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27B6AA2-B171-400D-8A92-FABE2080C4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27B6AA2-B171-400D-8A92-FABE2080C4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27B6AA2-B171-400D-8A92-FABE2080C4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D178B04-69DA-40B9-A372-0AC70341E71B}
+	EndGlobalSection
+EndGlobal
