@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BBAF1E7F-5F75-47DC-898C-FBC2D3F91E39}</ProjectGuid>
+    <ProjectGuid>{D1BEC607-6409-45AB-95E3-4454A7124B54}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ModernGUI</RootNamespace>
-    <AssemblyName>ModernGUI</AssemblyName>
+    <RootNamespace>DarkMode_Horizontal</RootNamespace>
+    <AssemblyName>DarkMode_Horizontal</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -77,10 +81,31 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DarkMode\DarkMode.csproj">
-      <Project>{e27b6aa2-b171-400d-8a92-fabe2080c4cb}</Project>
-      <Name>DarkMode</Name>
-    </ProjectReference>
+    <None Include="Resources\car_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo auto single dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_user_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opened_folder_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_25px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
