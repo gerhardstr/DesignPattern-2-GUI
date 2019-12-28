@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkMode", "DarkMode\DarkMo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkModeHorizontal", "DarkMode Horizontal\DarkModeHorizontal.csproj", "{D1BEC607-6409-45AB-95E3-4454A7124B54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorTheWorld", "RJ\ColorTheWorld.csproj", "{1D9300AE-6824-4B8E-83FB-3A69F87036FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D1BEC607-6409-45AB-95E3-4454A7124B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1BEC607-6409-45AB-95E3-4454A7124B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1BEC607-6409-45AB-95E3-4454A7124B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9300AE-6824-4B8E-83FB-3A69F87036FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9300AE-6824-4B8E-83FB-3A69F87036FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9300AE-6824-4B8E-83FB-3A69F87036FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9300AE-6824-4B8E-83FB-3A69F87036FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
